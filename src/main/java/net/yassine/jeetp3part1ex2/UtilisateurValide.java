@@ -10,7 +10,7 @@ import java.io.IOException;
 
 @WebServlet("/UtilisateurValide")
 public class UtilisateurValide extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
