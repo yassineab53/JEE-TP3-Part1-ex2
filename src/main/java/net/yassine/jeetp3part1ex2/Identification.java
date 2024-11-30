@@ -18,6 +18,7 @@ public class Identification extends HttpServlet {
         String password = request.getParameter("password");
         String section = request.getParameter("section");
 
+
         if ("admin".equals(login) && "admin".equals(password)) {
             request.setAttribute("section", section);
             RequestDispatcher rd = request.getRequestDispatcher("UtilisateurValide");
